@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-
 import 'package:neumorphic/src/components/neu_card.dart';
 import 'package:neumorphic/src/params.dart';
 

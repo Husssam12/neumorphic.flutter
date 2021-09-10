@@ -1,12 +1,10 @@
 import 'dart:math' as math;
 
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
 
 import '../params.dart';
 import 'neu_card.dart';
@@ -530,7 +528,7 @@ class _RenderNeuSwitch<T> extends RenderBox
     required int? selectedIndex,
     required Color thumbColor,
     required this.state,
-  })   : _highlightedIndex = selectedIndex,
+  })  : _highlightedIndex = selectedIndex,
         _thumbColor = thumbColor,
         assert(state != null) {
     state.drag
